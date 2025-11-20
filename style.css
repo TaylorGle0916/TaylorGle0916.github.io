@@ -40,7 +40,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: #fff;
+    color: #055f20;
 }
 
 /* main container area beneath menu */
@@ -66,7 +66,7 @@ main {
 
 /* interests section styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(255, 255, 255) ridge;
     padding: 8px;
     margin-top: 20px;
 }
@@ -85,17 +85,17 @@ h2, h3 {
 }
 
 #portfolio li {
-  background: #196b09;
+  background: #fffafa;
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
 }
 
 #portfolio li:hover {
-  background: #1b690b;
+  background: #000000;
 }
 
 #portfolio a {
   text-decoration: none;
-  color: #19912d;
+  color: #000000;
 }
