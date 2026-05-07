@@ -58,10 +58,8 @@ $(document).ready(function () {
         currentShape.goodBehavior = 'spin';
     }
 }
-
-  // TODO 3-a: add a function that handles the static display type
-  
- function handleStatic(data) {
+// TODO 3-a: add a function that handles the static display type
+  function handleStatic(data) {
    setBackgroundWithObject(data);
     animationDetails.displayType = 1; 
 }
@@ -73,16 +71,16 @@ $(document).ready(function () {
 }
 
   // TODO 5-a: add a function that handles the bad display type
-  
-
-  /////////////////////////////////////////////////
-  // BUTTON HANDLERS BELOW HERE (3-b, 4-b, 5-b) ///
-  /////////////////////////////////////////////////
- function handleBad(data, repeat) {
+   function handleBad(data, repeat) {
    repeat++;
     setBackgroundWithMixed(data, repeat);
     animationDetails.displayType = 3;
 }
+
+  /////////////////////////////////////////////////
+  // BUTTON HANDLERS BELOW HERE (3-b, 4-b, 5-b) ///
+  /////////////////////////////////////////////////
+
   function staticDisplay() {
     // TODO 3-b: call your handleStatic function
     handleStatic(dataShapes[currentIndex]); 
